@@ -1,6 +1,6 @@
 name: Sidoine.org
 markdown: kramdown
-permalink: /:year/:month/:day/:title
+#permalink: /:year/:month/:day/:title
 
 prose:
   rooturl: '_posts'
@@ -18,12 +18,7 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
-          value: ""
-    _posts/static:
+    static:
       - name: "layout"
         field:
           element: "hidden"

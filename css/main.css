@@ -6,21 +6,6 @@ body {
     margin: 60px auto;
 }
 
-.container {
-  width: 70%;
-  margin: 0 auto;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -56,6 +41,26 @@ nav ul li, footer ul li {
   text-decoration: none;
 }
 
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.blurb {
+  font-size: 1.2em;
+  color: #000;
+}
+
 a {
     text-decoration: none;
     color: #999;
@@ -65,6 +70,10 @@ a:hover {
 }
 h1 {
     font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p, ul, ol, table {
@@ -116,4 +125,15 @@ table tr {
 
 th, td {
   border: none;
+}
+
+/* FORMS */
+
+input, textarea {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 1.5em;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
