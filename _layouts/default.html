@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<div class="hero-image">
+			  <div class="hero-text">
+			    <a href="/"><h1>Sauvegarde des Coteaux du Lyonnais</h1></a>
+			  </div>
+			</div>
+			<div class="container">
+				<nav>
+		    		<ul>
+		        		<li><a href="/">Home</a></li>
+			        	<li><a href="/presentation">Présentation</a></li>
+		        		<li><a href="/votre-avis">Votre avis</a></li>
+		    		</ul>
+				</nav>
+			{{ content }}
+
+			<footer>
+				<ul>
+					<li><a href="https://github.com/bobman38">github.com/bobman38</a></li>
+					<li><a href="https://prose.io/#bobman38/sidoine.org">edit</a></li>
+				</ul>
+			</footer>
+			</div><!-- /.container -->
+		</body>
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	</html>

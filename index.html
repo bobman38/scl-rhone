@@ -1,0 +1,17 @@
+---
+layout: default
+title: Sauvegarde des Coteaux du Lyonnais
+---
+<!-- <div class="blurb">
+	<h1>{{ page.title }}</h1>
+</div><!-- /.blurb --> 
+
+
+{% for post in site.posts %}
+<div class="indexpost">
+	<a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</h2></a>
+	<span>{{ post.date | date_to_string }}</span> » <span>{{ post.category }}
+	{{ post.excerpt }}
+	<a href="{{ post.url }}" title="{{ post.title }}">Lire plus...</a>
+</div>
+{% endfor %}
