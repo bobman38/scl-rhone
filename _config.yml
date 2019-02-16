@@ -1,6 +1,6 @@
 name: Sidoine.org
 markdown: kramdown
-#permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 
 prose:
   rooturl: '_posts'

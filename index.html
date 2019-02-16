@@ -15,6 +15,7 @@ title: Sauvegarde des Coteaux du Lyonnais
 	<a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</h2></a>
 	<span>{{ post.date | date_to_string }}</span> » <span>{{ post.category }}
 	{{ post.excerpt }}
+	{{post.layout}}
 	<a href="{{ post.url }}" title="{{ post.title }}">Lire plus...</a>
 </div>
 {% endfor %}
