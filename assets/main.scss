@@ -1,0 +1,52 @@
+---
+---
+@import "minima";
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/media/coteaux.jpg");
+  background-image: url("/media/coteaux.jpg");
+
+  /* Set a specific height */
+  height: 200px;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+a.site-title, a.site-title:visited, a.site-title:hover {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.big {
+  font-size: 1.5em;
+  border: 1px solid black;
+  background-color: #f0f0f0
+}
+
+input, textarea {
+  font-size: 1.2em;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

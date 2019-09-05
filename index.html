@@ -1,22 +1,14 @@
 ---
 layout: default
-title: Sauvegarde des Coteaux du Lyonnais
 ---
-<div class="blurb">
+
+<div>
 	<p>Bienvenue sur le site de la Sauvegarde des Coteaux du Lyonnais. Vous
   trouverez ici toutes les informations relatives aux projets autoroutiers de la région lyonnaise,
   ainsi que les actions entreprises par la SCL pour lutter contre ces projets. Ensemble, nous réussirons
   à éviter les autoroutes inutiles !</p>
 </div><!-- /.blurb -->
 
-
-<ul>
-  {% for item in site.data.newspaper.items %}
-    <li>
-        <a href="{{ item.file }}">{{ item.date }} {{ item.name }}</a>
-    </li>
-  {% endfor %}
-</ul>
 
 <h2>Dernières nouvelles</h2>
 {% for post in site.posts %}
