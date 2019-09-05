@@ -9,6 +9,15 @@ title: Sauvegarde des Coteaux du Lyonnais
   à éviter les autoroutes inutiles !</p>
 </div><!-- /.blurb -->
 
+
+<ul>
+  {% for item in site.data.newspaper.items %}
+    <li>
+        <a href="{{ item.file }}">{{ item.date }} {{ item.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 <h2>Dernières nouvelles</h2>
 {% for post in site.posts %}
 {% if post.layout == 'post' %}
