@@ -1,6 +1,5 @@
 title: Sauvegarde des Coteaux du Lyonnais
 markdown: kramdown
-permalink: /:year/:month/:day/:title
 
 theme: minima
 
